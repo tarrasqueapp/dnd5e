@@ -1,0 +1,8 @@
+{
+  // Formatting
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "yaml.schemas": {
+    "https://json.schemastore.org/github-workflow.json": "**/.github/workflows/*.yaml"
+  }
+}
