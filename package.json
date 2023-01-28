@@ -1,37 +1,39 @@
 {
-  "name": "tarrasque-dnd5e-plugin",
+  "name": "@tarrasque/dnd5e-plugin",
   "version": "0.0.1",
-  "repository": "https://github.com/tarrasqueapp/dnd5e-plugin",
-  "author": "Richard Solomou <richard@tarrasque.app>",
-  "license": "AGPL-3.0-or-later",
-  "private": true,
-  "type": "module",
+  "description": "Dungeons & Dragons 5th Edition Plugin for Tarrasque App",
+  "keywords": [
+    "tarrasque",
+    "dnd5e",
+    "plugin"
+  ],
+  "homepage": "https://github.com/tarrasqueapp/dnd5e-plugin#readme",
+  "bugs": {
+    "url": "https://github.com/tarrasqueapp/dnd5e-plugin/issues",
+    "email": "support@tarrasque.app"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Richard Solomou",
+    "email": "richard@tarrasque.app",
+    "url": "https://tarrasque.app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tarrasqueapp/dnd5e-plugin"
+  },
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "lint": "tsc --noEmit && eslint ."
   },
-  "dependencies": {
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
-    "@mui/material": "^5.11.5",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "vite-plugin-dts": "^1.7.1"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "@trivago/prettier-plugin-sort-imports": "^4.0.0",
-    "@types/node": "^18.11.18",
+    "@tarrasque/eslint-config": "latest",
+    "@tarrasque/prettier-config": "latest",
+    "@tarrasque/tsconfig": "latest",
     "@types/react": "^18.0.27",
-    "@types/react-dom": "^18.0.10",
-    "@typescript-eslint/eslint-plugin": "^5.48.2",
-    "@typescript-eslint/parser": "^5.48.2",
-    "@vitejs/plugin-react": "^3.0.1",
     "eslint": "^8.32.0",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.8.3",
-    "typescript": "^4.9.4",
-    "vite": "^4.0.4"
+    "typescript": "^4.9.4"
   }
 }
