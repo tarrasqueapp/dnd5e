@@ -1,9 +1,0 @@
-{
-  "name": "@tarrasque/dnd5e-plugin",
-  "title": "Dungeons & Dragons 5th Edition Plugin",
-  "version": "0.0.1",
-  "description": "Dungeons & Dragons 5th Edition Plugin for Tarrasque App",
-  "keywords": ["tarrasque", "dnd5e", "plugin"],
-  "author": "Tarrasque App",
-  "download": "https://github.com/tarrasqueapp/dnd5e-plugin/releases/download/latest/dnd5e-plugin.zip"
-}

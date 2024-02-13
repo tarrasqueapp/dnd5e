@@ -1,33 +1,47 @@
-<div align="center">
-  <a href="https://tarrasque.app" target="_blank"><img src="https://tarrasque.app/images/logo.svg" width="150" /></a>
-  <h1>Tarrasque App</h1>
-  <h2>Dungeons & Dragons 5th Edition Plugin</h2>
-</div>
+<p align="center">
+  <a href="https://tarrasque.app">
+    <img src="https://tarrasque.app/images/logo.svg" width="150" />
+  </a>
+
+  <h1 align="center">Tarrasque App</h1>
+  <h2 align="center">Dungeons & Dragons 5th Edition Plugin</h2>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/package-json/version/tarrasqueapp/dnd5e" />
+  <img src="https://img.shields.io/github/actions/workflow/status/tarrasqueapp/dnd5e/deploy.yaml" />
+  <img src="https://img.shields.io/github/license/tarrasqueapp/dnd5e" />
+</p>
 
 This is a plugin for [Tarrasque App](https://tarrasque.app) that adds support for Dungeons & Dragons 5th Edition.
 
-> **Warning**
-> This project is in pre-alpha and is not yet ready for public use.
+## Overview
 
-## How to use
+TODO
 
-### Install the plugin
+## Features
 
-1. Click the "Plugins" icon in the top right corner of the app
-2. Paste the following URL into the "Install Plugin" input: `https://github.com/tarrasqueapp/dnd5e-plugin/raw/master/plugin.json`
-3. Click "Install"
+TODO
 
-### Create a D&D 5e campaign
+## Prerequisites
 
-1. Click the "New Campaign" button at the bottom of the app
-2. Select the "Dungeons & Dragons 5th Edition" plugin
-3. Click "Create"
+- [Node.js](https://nodejs.org/en/) (v18.12.1 or higher)
+- [pnpm](https://pnpm.io/) (v8.8.0 or higher)
 
-### Add a D&D 5e monster to your campaign
+## Setup
 
-1. Open a map in your campaign
-2. Click the "Plugins" icon in the bottom right corner of the app
-3. Select the "Dungeons & Dragons 5th Edition" plugin
-4. Go to the "Monsters" tab
-5. Choose a monster from the list
-6. Click "Add to campaign"
+Run the following command to install dependencies:
+
+```bash
+pnpm install
+```
+
+## Usage
+
+To use the plugin in a development environment:
+
+```bash
+pnpm dev
+```
+
+This command lauches a local server and continuously recompiles the plugin on change. You can add this plugin to Tarrasque App by pointing it to https://tarrasqueapp.github.io/dnd5e/manifest.json in production, or http://localhost:5173/manifest.json in development.

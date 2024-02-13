@@ -1,5 +1,9 @@
 {
-  "extends": "@tarrasque/tsconfig/react",
-  "include": ["**/*.ts", "**/*.tsx", "**/*.mts"],
-  "exclude": ["node_modules"]
+  "extends": "@tronite/style-guide/typescript/react.es2020",
+  "include": ["src"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "noEmit": true
+  }
 }
