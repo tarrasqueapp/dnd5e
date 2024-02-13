@@ -44,4 +44,4 @@ To use the plugin in a development environment:
 pnpm dev
 ```
 
-This command lauches a local server and continuously recompiles the plugin on change. You can add this plugin to Tarrasque App by pointing it to https://tarrasqueapp.github.io/dnd5e/manifest.json in production, or http://localhost:5173/manifest.json in development.
+This command lauches a local server and continuously recompiles the plugin on change. You can add this plugin to Tarrasque App by pointing it to https://tarrasqueapp.github.io/dnd5e/manifest.json in production, or http://localhost:5173/dnd5e/manifest.json in development.
