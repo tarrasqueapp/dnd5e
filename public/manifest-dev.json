@@ -1,8 +1,26 @@
 {
+  "id": "tarrasqueapp/dnd5e",
   "name": "Dungeons & Dragons 5th Edition",
   "description": "A plugin for the Dungeons & Dragons 5th Edition ruleset",
   "author": "Tarrasque App",
-  "icon_url": "http://localhost:5173/dnd5e/icon.svg",
-  "plugin_url": "http://localhost:5173/dnd5e/",
-  "homepage_url": "https://github.com/tarrasqueapp/dnd5e"
+  "urls": [
+    {
+      "name": "icon",
+      "url": "http://localhost:3001/icon.svg"
+    },
+    {
+      "name": "map_iframe",
+      "url": "http://localhost:3001/overlay",
+      "width": 300,
+      "height": 300
+    },
+    {
+      "name": "compendium_iframe",
+      "url": "http://localhost:3001/compendium"
+    },
+    {
+      "name": "homepage",
+      "url": "https://github.com/tarrasqueapp/dnd5e"
+    }
+  ]
 }

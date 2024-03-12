@@ -8,6 +8,7 @@ module.exports = {
     require.resolve('@tronite/style-guide/eslint/browser'),
     require.resolve('@tronite/style-guide/eslint/node'),
     require.resolve('@tronite/style-guide/eslint/react'),
+    require.resolve('@tronite/style-guide/eslint/next'),
     require.resolve('@tronite/style-guide/eslint/typescript'),
   ],
   parserOptions: {
@@ -20,5 +21,5 @@ module.exports = {
       },
     },
   },
-  ignorePatterns: ['.eslintrc.cjs'],
+  ignorePatterns: ['.eslintrc.js'],
 };
