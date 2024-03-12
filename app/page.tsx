@@ -1,9 +1,19 @@
+'use client';
+
 import { Typography } from '@mui/material';
+import { useEffect, useState } from 'react';
 
-export default async function RootPage() {
-  const root = await fetch(`${process.env.HOST}/api`).then((res) => res.json());
+export default function RootPage() {
+  const [root, setRoot] = useState<Record<string, string>>({});
 
-  console.log(root);
+  useEffect(() => {
+    async function fetchRoot() {
+      const root = await fetch(`${process.env.HOST}/api`).then((res) => res.json());
+      setRoot(root);
+      console.log(root);
+    }
+    fetchRoot();
+  }, []);
 
   return (
     <div>
